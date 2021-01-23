@@ -1,0 +1,21 @@
+{
+  "name": "td2",
+  "version": "1.0.0",
+  "description": "Weather chat bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Victor GOUBET & Chloe DAEMS",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "dateformat": "^4.4.2",
+    "jsonpath": "^1.1.0",
+    "nodemon": "^2.0.7",
+    "xregexp": "^4.4.1"
+  }
+}
