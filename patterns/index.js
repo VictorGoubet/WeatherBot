@@ -4,7 +4,7 @@ const patternDict = [
         intent : "Watch Movie"
     },
     {
-        pattern :'\\b[Ll]isten\\s(?<music>.+)by\\s(?<author>.+)',
+        pattern :'\\b[Ll]isten\\s(?<music>.+)by\\s(?<author>[\\w|\\s]+)',
         intent : "Listen music"
     },
     {
@@ -16,7 +16,7 @@ const patternDict = [
         intent: 'ComplexWeather'
     },
     {
-        pattern:'\\bweather in (?<city>.+)',
+        pattern:'\\b(weather|time) in (?<city>[\\w|\\s]+)',
         intent: 'SimpleWeather'
     }
     
